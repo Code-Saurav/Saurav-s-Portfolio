@@ -1,0 +1,17 @@
+/* Global Styles */
+body{
+  color:bisque;
+  background-color: rgb(46, 44, 44);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size:16px;
+}
+
+/* Navbar Style */
+
+.navbar{
+  background-color: bisque;
+}
+
+.secondary{
+  font-size: 0.6em;
+}
