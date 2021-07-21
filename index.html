@@ -34,14 +34,14 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about_me">About Me</a>
+            <a class="nav-link" href="#about_me_section">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work Experience</a>
+            <a class="nav-link" href="#experience_section">Work Experience</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects_section">Projects</a>
           </li>
 
           <li class="nav-item">
@@ -74,7 +74,7 @@
   </div><!--End of Jumbotron-->
 <!------------------------------------------------------------------------>
 <div class = "container">
-  <section id = "about_me">
+  <section id = "about_me_section">
     <div><h2> About me</h2></div>
     <div class = "row">
       <div class = "col-md-6">
@@ -91,15 +91,49 @@
             <span>GPA : 3.785</span>
           </p>
         </div> <!-- End of education div-->
+      <section id = "experience_section">
         <h3> Experience </h3>
         <div class = "experience">
           <ul id="primary">
-            <li>Research Assistant| | UTA – High Energy Physics</li>
-            <li>Office Assistant | University of Texas at Arlington </li>
-            <li>Research Assistant | Robotics Association of Nepal</li>
+            <li>Research Assistant | UTA High Energy Physics<br> 
+              <span id = "secondary">- Implements modification to existing LabVIEW applications, specifically designed for ATLAS Project to test the reliability of bricks.
+                <br>- Develop automated test, data acquisition, and control system.
+                <br>- Contributed to System design and specifications.
+            </span>
+            </li>
+
+            <li> Office Assistant | University of Texas at Arlington<br>
+              <span id = "secondary">- Managed front office administration of Residence Hall (On-Campus Housing) for about 300 students. 
+                <br>- Prepared and processed letters, email messages, incident reports, and other documents accurately using Microsoft word and other software.
+            </span>
+
+            </li>
+
+            <li>Research Assistant | Robotics Association of Nepal<br> 
+              <span id = "secondary">- Collaborated with the R&D team to create, and design new engineering contents for the schools.
+                <br>-	Examined the uniform speed of every motor used in the Automated wheelchair, in Dr. KC Project, and computed a code that distribute just the enough amount of power to each motor when required. 
+            </span>
+            </li>
+            
+            
           </ul>
-        </div> <!-- End of education div-->
-      </div><!-- end of col-md-6-->
+        </div> <!-- End of experience div-->
+      </section> <!-- End of Expereince section-->
+
+      <section id= "coursework-section">
+        <h3> Coursework</h3>
+        <div class = "coursework">
+          <ul>
+          <li> Algorithms and Data Structure</li>
+          <li> Computer Organization & Assembly Language Programming</li>
+          <li> Linear Algebra</li>
+          <li> Obhect Oriented Programming in C++</li>
+          <li> Discrete Structure</li>
+          <li> Introduction to C Programming</li>
+          </ul>
+        </div>
+      </section>
+      </div><!-- end of col-md-6(1)-->
 
       <div class = "col-md-6">
         <h3>Technical Skills</h3>
@@ -111,6 +145,28 @@
             <li id = "primary">Tools:<span id = "secondary"> Flutter, Kotlin, Git</span></li>
           </ul>
         </div> <!-- End of education div-->
+        <section id = "projects_section">
+          <h3>Projects</h3>
+          <div class = "projects">
+            <ul>
+              <li id = "primary"> Movie Ticketing system </li> <ul>
+                <li>Developed a system to sell movie theater system using Java.</li>
+                <li>Provides the searching facilities based on various factor such as seat availability, Ticket Pricing for different class ticket, and calculate the total cost of the chosen tickets.  </li>
+                </ul>
+              <li id = "primary">School Management and Reporting Tool:</li>
+              <ul>
+                <li>Developed a program using C++, the program assists administrators of School with tracking the various relationship between students, parents, teacher, course, classes and grades and promotions.</li>
+                <li>Developed the Graphical Interface for the system using GTK+/gtkmm</li>
+              </ul>
+              <li id = "primary">Dulhan Beauty Parlour<span id = "secondary"> 
+                <ul>
+                  <li> HTML CSS Bootstrap </li>
+              </ul>
+            </li>
+            </ul> <!-- End of outstide UL-->
+          </div> <!-- End of projects div-->
+        </section> <!-- End of projects section-->
+
       </div>
       
         

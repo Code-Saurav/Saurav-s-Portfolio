@@ -75,21 +75,21 @@ img{
 
 /* About Me Styling */
 
-#about_me h2{
+#about_me_section h2{
   text-align: center;
   font-weight: bold;
 }
 
-#about_me h3{
+#about_me_section h3{
   text-decoration: underline;
   font-weight: bold;
 }
 
-#about_me p {
+#about_me_section p {
   font-weight: bold;
   margin-bottom: 0;
 }
-#about_me #year{
+#about_me_section #year{
   font-style: italic;
   /*background-color:cadetblue ;*/
   border-radius: 5px;
@@ -99,7 +99,7 @@ img{
   padding-right: 10px;
 }
 
-#about_me #school, #about_me #scholarship{
+#about_me_section #school, #about_me #scholarship{
   font-weight:normal;
 }
 .education{
