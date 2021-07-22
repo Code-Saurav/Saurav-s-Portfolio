@@ -18,6 +18,12 @@
   <link rel="stylesheet" href="./css/styles.css">
 
   <!-- End of CSS styling-->
+
+  <!--Social Media Library-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Endf of Social media Library-->
   <title>Saurav K Sah | Portforlio Site</title>
 </head>
 <body>
@@ -45,7 +51,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Contact</a>
+            <a class="nav-link" href="#contact-section">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,9 +73,9 @@
       </div>
 
       <div class="text-center">
-        <button type="button" class="btn btn-primary ">
+        <a class="btn btn-primary" href = "#projects_section" role="button">
            Discover My Projects
-        </button>
+        </a>
       </div>
   </div><!--End of Jumbotron-->
 <!------------------------------------------------------------------------>
@@ -133,6 +139,18 @@
           </ul>
         </div>
       </section>
+
+      <section id= "certification-section">
+        <h3> Certification</h3>
+        <div class = "coursework">
+          <ul>
+          <li> HTML,CSS, and Javascript for Web Developer <span id = "primary"> (John Hopkins University)</span></li>
+          <li> DevOps Foundations</li>
+          <li> Agile Project Leadership</li>
+         
+          </ul>
+        </div>
+      </section>
       </div><!-- end of col-md-6(1)-->
 
       <div class = "col-md-6">
@@ -167,6 +185,35 @@
           </div> <!-- End of projects div-->
         </section> <!-- End of projects section-->
 
+        <section id = "extra_curricular">
+          <h3>Extra-Curricular</h3>
+          <div class = "projects">
+            <ul>
+              <li id = "primary"> Volunteer<span id = "secondary"> - Assisted in keeping record in the digital of the received offerings and donation at the Mission Arlington, Texas(Summer 2020)</span></li> 
+              <li id = "primary"> Event volunteer <span id = "secondary"> - Assisted employer to setup thier table, mobiized visitors during the event (2019)</span></li>
+              <li id = "primary"> Fundraiser <span id = "secondary"> - Collected funds for the books and the construction of the first school at Jumla, a rural district of Nepal (2016- 2018)</span></li>
+              <li id = "primary"> Club & Societies</li>
+              <ul>
+                <li>Engineering Student Council - UTA(Nov 2019-present)</li>
+                <li>MOBI CLU (Jan 2020 - present)</li>
+                <li>Cyber Security Club UTA ( March 2020 - Present</li>
+              </ul>
+            
+            </ul> <!-- End of outstide UL-->
+          </div> <!-- End of projects div-->
+        </section> <!-- End of projects section-->
+        
+        <section id = "accomplishment">
+          <h3>Accomplishment</h3>
+          <div class = "accomplishment">
+            <ul>
+              <li>UTA College of Engineering<span id = "primary" >Dean's List </span>- Fall 2020 </li> 
+              <li> Awarded with Mahatma Gandhi Scholarship (International Scholarship funded by Government of India)</li>
+              <li> Smart -Blind Stick prototype was selected as the feasible tech, which was later considered for local production.</li>
+            
+            </ul> <!-- End of outstide UL-->
+          </div> <!-- End of projects div-->
+        </section> <!-- End of projects section-->
       </div>
       
         
@@ -176,6 +223,63 @@
 
   </section>
   </div><!--End of container-->
+<div class = "container-fluid">
+  <div class = "footer">
+    <div class = "container">
+    
+      
+       <section id = "contact-section">
+         <h4> Contacts</h4>
+
+         <div class = "social-media">
+           <ul>
+            <div class = "row">
+            <div class = "col-md-3">
+              <a href = "#" class = "fa fa-linkedin"> - sauravkrsah</a>
+            </div>
+              
+            <div class = "col-md-3">
+              <a href = "#" class = "fa fa-github"> - Code-saurav</a>
+            </div>
+
+            <div class = "col-md-3">
+              <a href = "#" class = "fa fa-instagram"> - i.msaurav</a>
+            </div>
+
+            <div class = "col-md-3">
+              <a href = "#" class = "fa fa-stack-overflow"> - Code-saurav</a>
+            </div>
+           <p> Email: sauravkrsah7@gmail.com </p>
+           <a id = "phone" href = "tel:972-533-5860">+1(972) 533-5860</a>
+          </div> <!-- End of row-->
+       </section>
+
+       <section id = "contact-me-box">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="nameInput" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="emailInput">
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Add your Message</label>
+            <input type="message" class="form-control" id="exampleInputPassword1">
+          </div>
+          <a type="submit" href = "message_response.html" role = "button" class="btn btn-primary">Send Message</a>
+        </form>
+       </section>
+    
+
+
+  </div><!--- End of container-->
+  </div><!--End of Footer-->
+</div><!-- End of container-fluid-->
+  
   
 
 <!-- Java script Plugin-->

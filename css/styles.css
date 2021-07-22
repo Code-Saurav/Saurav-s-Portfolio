@@ -114,5 +114,56 @@ img{
   font-weight: normal;
 }
 
+.footer{
+  background-color: #1c283c;
+  color:#cceaf3;
+}
+
+#phone{
+  color: #cceaf3;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+#contact-section{
+  text-align: center;
+}
+
+.social-media a{
+  text-decoration: none;
+  color:#cceaf3;
+}
+
+.social-media a:hover{
+  font-weight:bold;
+}
+
+#contact-me-box{
+  align-items: center;
+}
+
+#contact-me-box .btn-primary{
+  background-color:cadetblue;
+  color: #cceaf3;
+  border-color: cadetblue;
+}
+#message-reponse h3{
+  text-align: center;
+}
+
+#continue{
+  text-align: center;
+  padding-top:250px;
+  padding-bottom:250px;
+}
+
+
+  
+
+
+
+
+
+
 
 
