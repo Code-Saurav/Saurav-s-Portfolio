@@ -235,40 +235,40 @@
            <ul>
             <div class = "row">
             <div class = "col-md-3">
-              <a href = "#" class = "fa fa-linkedin"> - sauravkrsah</a>
+              <a href = "#" class = "fa fa-linkedin"><span id = "secondary-link"> - sauravkrsah </span></a>
             </div>
               
             <div class = "col-md-3">
-              <a href = "#" class = "fa fa-github"> - Code-saurav</a>
+              <a href = "#" class = "fa fa-github"> <span id = "secondary-link">- Code-saurav </span></a>
             </div>
 
             <div class = "col-md-3">
-              <a href = "#" class = "fa fa-instagram"> - i.msaurav</a>
+              <a href = "#" class = "fa fa-instagram"><span id = "secondary-link"> - i.msaurav</span></a>
             </div>
 
             <div class = "col-md-3">
-              <a href = "#" class = "fa fa-stack-overflow"> - Code-saurav</a>
+              <a href = "#" class = "fa fa-stack-overflow"> <span id = "secondary-link">- Code-saurav </span></a>
             </div>
            <p> Email: sauravkrsah7@gmail.com </p>
-           <a id = "phone" href = "tel:972-533-5860">+1(972) 533-5860</a>
+           <a id = "phone" href = "tel:972-533-5860">Phone : +1(972) 533-5860</a>
           </div> <!-- End of row-->
        </section>
 
        <section id = "contact-me-box">
-        <form>
+        <form action = "action.php " method = "POST">
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="name" class="form-control" id="nameInput" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="nameInput" name= "fullname" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text"></div>
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="emailInput">
+            <input type="email" class="form-control" id="emailInput" name = "email">
           </div>
 
           <div class="mb-3">
             <label for="message" class="form-label">Add your Message</label>
-            <input type="message" class="form-control" id="exampleInputPassword1">
+            <input type="message" class="form-control" id="exampleInputPassword1" name = "message">
           </div>
           <a type="submit" href = "message_response.html" role = "button" class="btn btn-primary">Send Message</a>
         </form>

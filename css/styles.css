@@ -117,12 +117,14 @@ img{
 .footer{
   background-color: #1c283c;
   color:#cceaf3;
+
 }
 
 #phone{
   color: #cceaf3;
   text-decoration: none;
   margin-top: 0;
+  
 }
 
 #contact-section{
@@ -155,6 +157,10 @@ img{
   text-align: center;
   padding-top:250px;
   padding-bottom:250px;
+}
+
+a #secondary-link{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
