@@ -24,9 +24,30 @@ body{
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
   color: #cceaf3;
+  text-align: center;
+  width: 30%;
+  margin:auto;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #cceaf3;
+  text-align: center;
+  margin-top:10px;
+  width: 30%;
+  margin:auto;
+  margin-top: 10px;border-radius: 10px;
+
+}
+
+
+.navbar-light .navbar-toggler {
+border-color:cadetblue;
+
+}
+
+.navbar-nav > li > a:hover{
+  background-color: cadetblue;
 }
 
 .jumbotron{
