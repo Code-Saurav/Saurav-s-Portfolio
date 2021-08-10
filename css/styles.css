@@ -69,6 +69,8 @@ img{
 .jumbotron .btn{
   background-color: #1c283c;
   margin-bottom: 10px;
+  border: #cceaf3;
+  box-shadow: 2px 2px 2px 2px #cceaf3;
 }
 
 /* End of Jumbotron Styling */
