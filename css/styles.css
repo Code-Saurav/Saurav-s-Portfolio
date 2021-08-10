@@ -190,6 +190,9 @@ a #secondary-link{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.btn-primary:hover{
+  opacity: 0.8;
+}
 
   
 
