@@ -58,19 +58,22 @@ img{
   font-weight: bold;
   opacity:0.99;
   color:#cceaf3;
+  text-shadow: 2px 2px 2px #1c283c ;
 }
 
 .jumbotron h2{
   text-align: center;
   opacity:0.99;
   color: #1c283c;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #cceaf3;
 }
 
 .jumbotron .btn{
   background-color: #1c283c;
   margin-bottom: 10px;
   border: #cceaf3;
-  box-shadow: 2px 2px 2px 2px #cceaf3;
+  box-shadow: 2px 2px 2px #cceaf3;
 }
 
 /* End of Jumbotron Styling */
@@ -80,6 +83,7 @@ img{
 #about_me_section h2{
   text-align: center;
   font-weight: bold;
+  font-size: 2.4rem;
 }
 
 #about_me_section h3{
