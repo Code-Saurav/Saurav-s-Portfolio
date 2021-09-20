@@ -20,35 +20,33 @@ body{
 
 .navbar-light .navbar-brand {
   color: #cceaf3;
+  font-size:2rem;
+  line-height: 90%;
+  text-transform: uppercase;
 }
+.navbar-light .navbar-brand .secondary{
+  font-size:0.9rem;
+  text-transform: capitalize;
+}
+
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
   color: #cceaf3;
-  text-align: center;
-  width: 30%;
-  margin:auto;
-  margin-top: 10px;
-  border-radius: 10px;
+  display:flex;
+  justify-content: center; 
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: #cceaf3;
-  text-align: center;
-  margin-top:10px;
-  width: 30%;
-  margin:auto;
-  margin-top: 10px;border-radius: 10px;
-
+  display:flex;
+  justify-content: center;
 }
-
 
 .navbar-light .navbar-toggler {
 border-color:cadetblue;
-
 }
 
-.navbar-nav > li > a:hover{
-  background-color: cadetblue;
-}
+
 
 .jumbotron{
   background-color: cadetblue;
@@ -63,11 +61,6 @@ border-color:cadetblue;
  padding-right:0;
 }
 
-img{
-  opacity:0.4;
-  position:absolute ;
-
-}
 
 /*End of navbar syling */
 
@@ -193,6 +186,36 @@ a #secondary-link{
 .btn-primary:hover{
   opacity: 0.8;
 }
+
+
+.container a.navbar-brand:hover{
+  color:cadetblue;
+}
+
+
+/*Responsive */
+
+
+/* Smartphones (portrait) ----------- */
+@media screen 
+and (max-width : 768px) {
+  .navbar-light .navbar-nav .nav-link:hover{
+    color:cadetblue;
+    border-bottom: 2px solid cadetblue; 
+  }
+    
+}
+
+@media screen 
+and (min-width : 768px) {
+  .navbar-light .navbar-nav .nav-link:hover{
+    color:cadetblue;
+    border-bottom : 2px solid cadetblue;
+  }
+}
+
+
+
 
   
 
